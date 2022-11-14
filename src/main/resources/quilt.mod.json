@@ -1,25 +1,19 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.rpmyt",
+		"id": "algart",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Algific Artifacts",
+			"description": "Winter-themed artifacts for Quilt 1.19. Made for MMD Winterjam 2022.",
 			"contributors": {
-				"Your name here": "Owner"
-			},
-			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
-			},
-			"icon": "assets/example_mod/icon.png"
+				"Arcuvium / RPMYT": "Author"
+			}
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.rpmyt.algart.Algart"
 		},
 		"depends": [
 			{
@@ -36,5 +30,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "algificartifacts.mixins.json"
 }
